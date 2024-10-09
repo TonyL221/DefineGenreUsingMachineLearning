@@ -2,9 +2,9 @@
 #import pandas as pd
 import spotipy 
 from spotipy.oauth2 import SpotifyClientCredentials
-
-client_id = '1dd679e02daa4de4bf2de3d89a86180d'
-client_secret = '88c84edcdcaf4f999fc3d11eed560856'
+### change this to your own/others id and secret
+client_id = [clientID]
+client_secret = [clientSecret]
 pl_id = '2sjVpVZpcje4dIznYcQfAC'
 #get the data
 col_names = ['acousticness', 'danceability', 'duration','energy','instrumentalness','liveliness','tempo','valence','genre']
