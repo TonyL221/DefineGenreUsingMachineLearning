@@ -5,7 +5,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 ### change this to your own/others id and secret
 client_id = [clientID]
 client_secret = [clientSecret]
-pl_id = '2sjVpVZpcje4dIznYcQfAC'
+pl_id = [ID of playlist] # replace with own playlist ID
 #get the data
 col_names = ['acousticness', 'danceability', 'duration','energy','instrumentalness','liveliness','tempo','valence','genre']
 data = [{},{},{},{},{},{},{},{},{}]
